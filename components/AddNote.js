@@ -38,7 +38,7 @@ const AddNote = ({navigation, ...props}) => {
     )
 }
 
-const styles = StyleSheet.create({
+export const styles = StyleSheet.create({
     addNoteContainer: {
         paddingHorizontal: 20,
         marginTop: 20,
