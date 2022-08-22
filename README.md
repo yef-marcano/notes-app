@@ -67,7 +67,7 @@ Si por alguna razon, desea bajar este repositorio y correrlo en su computadora, 
 # Instalacion de dependencias
 $ npm install
 
-# Servidor en el puerto localhost:3000
+# Servidor en el puerto localhost:19000
 $ expo start
 
 ```
