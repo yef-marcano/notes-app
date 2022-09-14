@@ -1,7 +1,9 @@
 import react from  'react';
 import { ScrollView, Text, View, StyleSheet, TouchableOpacity, Alert } from 'react-native';
-import * as Style from "../assets/styles";
-import { styles } from "./Notes";
+import * as Style from "../../assets/styles";
+import { styles } from "../notes/styles";
+import { style } from "./styles";
+
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const DeleteNotes = ({...props}) => {
@@ -156,21 +158,4 @@ const DeleteNotes = ({...props}) => {
         </ScrollView>
      )
 }
-const style = StyleSheet.create({
-    empyButton: {
-        backgroundColor: Style.color,
-        width: "25%",
-        borderRadius: 100,
-        justifyContent: "center",
-        alignItems: "center",
-        height: 35,
-        marginBottom: 5
-    },
-    empyButtonText: {
-        color: 'white',
-        fontSize: 16,
-        fontWeight: "700",
-    }
-})
-
 export default DeleteNotes;

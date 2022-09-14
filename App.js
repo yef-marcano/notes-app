@@ -1,11 +1,9 @@
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
-import Notes from './components/Notes';
-import AddNote from './components/AddNote';
-import DeleteNotes from './components/DeleteNotes';
-import EditNote from './components/EditNote';
+import Notes from './components/notes/Notes';
+import AddNote from './components/add/AddNote';
+import DeleteNotes from './components/delete/DeleteNotes';
+import EditNote from './components/edit/EditNote';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 import React, { useState, useEffect} from 'react';
@@ -76,7 +74,3 @@ export default function App() {
     </NavigationContainer>
   )
 }
-
-
-//https://www.youtube.com/watch?v=95SVAJQvZao
-// 1:05

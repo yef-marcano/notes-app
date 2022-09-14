@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { Text, StyleSheet, View, ScrollView, KeyboardAvoidingView,Platform,Keyboard, TouchableWithoutFeedback, TextInput, TouchableOpacity, Alert } from "react-native";
-import { styles } from './AddNote';
+import { Text, View, ScrollView, KeyboardAvoidingView,Platform,Keyboard, TouchableWithoutFeedback, TextInput, TouchableOpacity, Alert } from "react-native";
+import { styles } from '../add/AddNote';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const EditNote = ({navigation, route, ...props}) => {
